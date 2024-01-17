@@ -1,0 +1,115 @@
+
+
+html {
+    background-color: rgb(103, 0, 103);
+}
+
+a {
+    color: rgb(186, 86, 179);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 40px; 
+    right: 40px;  
+    height: 20px;
+}
+
+b {
+    color: rgb(186, 86, 179);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 780px;
+    left: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    bottom: 500px;
+    margin: 100px;
+    padding: 0px;
+    color: rgb(186, 86, 179);
+}
+
+label {
+    color: rgb(186, 86, 179);
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    bottom: 780px;
+    right: 400px;
+}
+
+label.moi {
+    color: rgb(186, 86, 179);
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    bottom: 780px;
+    right: 270px;
+    float:right;
+    margin-left:5px ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(103, 0, 103);
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+header:hover #sousMenu {
+    display: block;
+}
+
+#sousMenu a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #f157ff;
+    bottom: 200px;
+}
+
+#sousMenu a:hover {
+    background-color: #fbfbfb;
+    color: #0a0a0a;
+}
+
+
+
+#sousMenu {
+    display: none;
+    position: absolute;
+    background-color: rgb(103, 0, 103);
+    padding: 10px;
+    border-radius: 0 0 4px 4px;
+    color: #fff;
+}
+
+#reseau:checked ~ #sousMenu {
+    display: block;
+}
+
+#sousMenu a {
+    display: block;
+    text-decoration: none;
+    color: #f157ff;
+    margin-bottom: 5px;
+}
+
+#sousMenu a:hover {
+    color: #0a0a0a;
+}
+
+p {
+display: block;
+color: gb(186, 86, 179);
+}
